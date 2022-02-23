@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap-grid.css">
     <link rel="stylesheet" href="style.css">
     <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
     <title>Expect more food - Home</title>
@@ -28,17 +28,13 @@
 
 
 <body>
-    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom bg-light">
         <nav class="navbar navbar-expand-lg bg-light">
 
             <a class="navbar-brand" href="#"><img src="icons/favicon-32x32.png"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav auto">
                     <li class="nav-item active">
                         <a class="nav-link text-dark" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
@@ -50,62 +46,59 @@
         </nav>
     </section>
 
-    <!-- <nav>
-        <ul>
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="order.html">Order</a>
-            </li>
-        </ul>
-    </nav> -->
-
     <main>
         <div class="d-flex flex-column text-center justify-content-center">
             <h1 id="Welcome" class="mt-3">Welcome!</h1>
-            <p>Welcome on the website of Expect M<i class="fas fa-utensils"></i>RE food, a pop-up take away snackbar @
-                Thomas More University College,
-                campus
-                Geel.</p>
+            <p>Welcome on the website of Expect M<i class="fas fa-utensils"></i>RE food, a pop-up take away snackbar @ Thomas More University College, campus Geel.
+            </p>
             <p>We offer 3 delicious lunch snacks at very reasonable prices:</p>
         </div>
 
-        <div class="container">
-            <div class="row justify-content-md-center">
-                <div class="col-md-4">
-                    <div class="card">
-                        <img class="card-img-top" src="images/pizza.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Pizza</h5>
-                            <p class="card-text">Pizza with tomato sauce, cheese and toppings of the day</p>
-                            <a href="#" class="btn btn-primary">Pizza € 7.95</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-md-4">
-                    <div class="card">
-                        <img class="card-img-top" src="images/sandwich.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Sandwich</h5>
-                            <p class="card-text">Sandwich with fresh vegetables and spread of the day</p>
-                            <a href="#" class="btn btn-primary">Sandwich € 3.95</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-md-4">
-                    <div class="card" style="">
-                        <img class="card-img-top" src="images/salad.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Salad</h5>
-                            <p class="card-text">Fresh salad with meat or fish and dressing of the day</p>
-                            <a href="#" class="btn btn-primary">Salad € 5.95</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
+
+        <section class="container">
+            <section class="">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                        <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                            <div class="card">
+                                <img class="card-img-top" src="images/pizza.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pizza</h5>
+                                    <p class="card-text">Pizza with tomato sauce, cheese and toppings of the day</p>
+                                    <a href="#" class="btn btn-primary">Pizza € 7.95</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                        <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                            <div class="card">
+                                <img class="card-img-top" src="images/sandwich.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Sandwich</h5>
+                                    <p class="card-text">Sandwich with fresh vegetables and spread of the day</p>
+                                    <a href="#" class="btn btn-primary">Sandwich € 3.95</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                        <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                            <div class="card" style="">
+                                <img class="card-img-top" src="images/salad.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Salad</h5>
+                                    <p class="card-text">Fresh salad with meat or fish and dressing of the day</p>
+                                    <a href="#" class="btn btn-primary">Salad € 5.95</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
     </main>
 
     <footer>
@@ -127,8 +120,7 @@
                 <a href="https://www.facebook.com/ThomasMoreBE/" class="me-4 text-reset">
                     <i class="fab fa-facebook-f"></i>
                 </a>
-                <a href="https://twitter.com/ThomasMoreBE?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
-                    class="me-4 text-reset">
+                <a href="https://twitter.com/ThomasMoreBE?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="me-4 text-reset">
                     <i class="fab fa-twitter"></i>
                 </a>
                 <a href="https://www.instagram.com/thomasmore.be/" class="me-4 text-reset">
@@ -164,8 +156,7 @@
                         </h6>
                         <p><i class="fas fa-home me-3"></i> Kleinhoefstraat 4, 2440 Geel</p>
                         <p>
-                            <i class="fas fa-envelope me-3"></i>
-                            info.geel@thomasmore.be
+                            <i class="fas fa-envelope me-3"></i> info.geel@thomasmore.be
                         </p>
                         <p><i class="fas fa-phone me-3"></i> +32 14 56 23 10</p>
                     </div>

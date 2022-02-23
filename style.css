@@ -1,42 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Rock+Salt&display=swap');
-
-/* width */
-::-webkit-scrollbar {
-    width: 10px;
-  }
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Rock+Salt&display=swap');
+  /* width */
   
+   ::-webkit-scrollbar {
+      width: 10px;
+  }
   /* Track */
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
+  
+   ::-webkit-scrollbar-track {
+      background: #f1f1f1;
   }
-   
   /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #2875A4; 
+  
+   ::-webkit-scrollbar-thumb {
+      background: #2875A4;
+  }
+  /* Handle on hover */
+  
+   ::-webkit-scrollbar-thumb:hover {
+      background: #555;
   }
   
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
+  body {
+      font-family: 'Roboto Mono', monospace;
   }
-
-body{
-    font-family: 'Roboto Mono', monospace;
-}
-
-#Welcome{
-    font-family: 'Rock Salt', cursive;
-}
-
-
-nav{
-    background: #2875A4;
-}
-
-.AccentBlue{
-    color: #2875A4;
-}
-
-.AccentColor{
-    background: #fff;
-}
+  
+  #Welcome {
+      font-family: 'Rock Salt', cursive;
+  }
+  
+  nav {
+      background: #2875A4;
+  }
+  
+  .AccentBlue {
+      color: #2875A4;
+  }
+  
+  .AccentColor {
+      background: #fff;
+  }
